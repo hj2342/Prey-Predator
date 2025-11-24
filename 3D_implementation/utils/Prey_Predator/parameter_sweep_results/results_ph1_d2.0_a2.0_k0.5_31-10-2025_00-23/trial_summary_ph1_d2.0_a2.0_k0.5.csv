@@ -1,0 +1,4 @@
+parameter_set,trial,following_count_windowed,engulfing_count_windowed,separating_count_windowed,following_count_full,engulfing_count_full,separating_count_full,total_behaviors_windowed,total_behaviors_full,avg_distance,min_distance,max_distance,std_distance,follow_threshold,engulf_threshold,separation_threshold,analysis_window_sec
+ph1_d2.0_a2.0_k0.5,1,0,1,0,1,1,1,1,3,1.2989221900207333,0.03855238410968194,4.9812577386448025,1.3228194692733493,2.0,1.0,4.0,150
+ph1_d2.0_a2.0_k0.5,2,0,1,0,1,1,1,1,3,0.9644603596130383,0.0502027483885544,5.05419564854768,1.1768911786773255,2.0,1.0,4.0,150
+ph1_d2.0_a2.0_k0.5,3,0,1,0,1,1,1,1,3,1.1669852351148813,0.3417798250291944,5.076843762811956,1.1166490011496861,2.0,1.0,4.0,150

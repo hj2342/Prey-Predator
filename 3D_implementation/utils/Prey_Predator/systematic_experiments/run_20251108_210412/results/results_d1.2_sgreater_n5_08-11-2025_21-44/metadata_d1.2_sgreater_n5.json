@@ -1,0 +1,25 @@
+{
+  "parameter_set_name": "d1.2_sgreater_n5",
+  "description": "d_des=1.2, \u03c3=0.849, sensing=greater (2.59m = greater 1.8\u00d7d_des), n=5",
+  "num_trials": 3,
+  "duration_sec": 200,
+  "analysis_window_sec": 150,
+  "n_predators": 5,
+  "n_prey": 5,
+  "control_freq_hz": 30,
+  "flocking_parameters": {
+    "desired_distance": 1.2,
+    "sensing_range_own_swarm": 2.592,
+    "sensing_range_other_swarm": 2.592,
+    "repulsion_strength": 1.5,
+    "alpha": 2.0,
+    "epsilon": 12.0,
+    "adaptive_sigma_strength": 1.5
+  },
+  "behavior_thresholds": {
+    "follow_distance_threshold": 4.0,
+    "engulf_distance_threshold": 2.0,
+    "separation_distance_threshold": 8.0,
+    "min_behavior_duration": 10
+  }
+}

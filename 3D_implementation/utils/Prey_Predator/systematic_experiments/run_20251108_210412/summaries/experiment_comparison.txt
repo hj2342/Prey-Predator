@@ -1,0 +1,149 @@
+====================================================================================================
+SYSTEMATIC EXPERIMENT SUMMARY
+====================================================================================================
+
+Design: 3×3×3 full factorial design
+Total Experiments: 27
+
+PARAMETER COMBINATIONS:
+----------------------------------------------------------------------------------------------------
+#     Name                      d_des      σ          Sensing      n_s    Sensing/d_des  
+----------------------------------------------------------------------------------------------------
+1     d0.7_sless_n5             0.70       0.4950     1.008        5      1.44           
+2     d0.7_sless_n10            0.70       0.4950     1.008        10     1.44           
+3     d0.7_sless_n20            0.70       0.4950     1.008        20     1.44           
+4     d0.7_sequal_n5            0.70       0.4950     1.260        5      1.80           
+5     d0.7_sequal_n10           0.70       0.4950     1.260        10     1.80           
+6     d0.7_sequal_n20           0.70       0.4950     1.260        20     1.80           
+7     d0.7_sgreater_n5          0.70       0.4950     1.512        5      2.16           
+8     d0.7_sgreater_n10         0.70       0.4950     1.512        10     2.16           
+9     d0.7_sgreater_n20         0.70       0.4950     1.512        20     2.16           
+10    d1.2_sless_n5             1.20       0.8485     1.728        5      1.44           
+11    d1.2_sless_n10            1.20       0.8485     1.728        10     1.44           
+12    d1.2_sless_n20            1.20       0.8485     1.728        20     1.44           
+13    d1.2_sequal_n5            1.20       0.8485     2.160        5      1.80           
+14    d1.2_sequal_n10           1.20       0.8485     2.160        10     1.80           
+15    d1.2_sequal_n20           1.20       0.8485     2.160        20     1.80           
+16    d1.2_sgreater_n5          1.20       0.8485     2.592        5      2.16           
+17    d1.2_sgreater_n10         1.20       0.8485     2.592        10     2.16           
+18    d1.2_sgreater_n20         1.20       0.8485     2.592        20     2.16           
+19    d2.0_sless_n5             2.00       1.4142     2.880        5      1.44           
+20    d2.0_sless_n10            2.00       1.4142     2.880        10     1.44           
+21    d2.0_sless_n20            2.00       1.4142     2.880        20     1.44           
+22    d2.0_sequal_n5            2.00       1.4142     3.600        5      1.80           
+23    d2.0_sequal_n10           2.00       1.4142     3.600        10     1.80           
+24    d2.0_sequal_n20           2.00       1.4142     3.600        20     1.80           
+25    d2.0_sgreater_n5          2.00       1.4142     4.320        5      2.16           
+26    d2.0_sgreater_n10         2.00       1.4142     4.320        10     2.16           
+27    d2.0_sgreater_n20         2.00       1.4142     4.320        20     2.16           
+====================================================================================================
+
+GROUPING BY FACTORS:
+====================================================================================================
+
+1. By Desired Distance (d_des):
+--------------------------------------------------
+  d_des = 0.7: 9 experiments
+    - d0.7_sless_n5
+    - d0.7_sless_n10
+    - d0.7_sless_n20
+    - d0.7_sequal_n5
+    - d0.7_sequal_n10
+    - d0.7_sequal_n20
+    - d0.7_sgreater_n5
+    - d0.7_sgreater_n10
+    - d0.7_sgreater_n20
+
+  d_des = 1.2: 9 experiments
+    - d1.2_sless_n5
+    - d1.2_sless_n10
+    - d1.2_sless_n20
+    - d1.2_sequal_n5
+    - d1.2_sequal_n10
+    - d1.2_sequal_n20
+    - d1.2_sgreater_n5
+    - d1.2_sgreater_n10
+    - d1.2_sgreater_n20
+
+  d_des = 2.0: 9 experiments
+    - d2.0_sless_n5
+    - d2.0_sless_n10
+    - d2.0_sless_n20
+    - d2.0_sequal_n5
+    - d2.0_sequal_n10
+    - d2.0_sequal_n20
+    - d2.0_sgreater_n5
+    - d2.0_sgreater_n10
+    - d2.0_sgreater_n20
+
+2. By Sensing Range Type:
+--------------------------------------------------
+  less: 9 experiments
+    - d0.7_sless_n5
+    - d0.7_sless_n10
+    - d0.7_sless_n20
+    - d1.2_sless_n5
+    - d1.2_sless_n10
+    - d1.2_sless_n20
+    - d2.0_sless_n5
+    - d2.0_sless_n10
+    - d2.0_sless_n20
+
+  equal: 9 experiments
+    - d0.7_sequal_n5
+    - d0.7_sequal_n10
+    - d0.7_sequal_n20
+    - d1.2_sequal_n5
+    - d1.2_sequal_n10
+    - d1.2_sequal_n20
+    - d2.0_sequal_n5
+    - d2.0_sequal_n10
+    - d2.0_sequal_n20
+
+  greater: 9 experiments
+    - d0.7_sgreater_n5
+    - d0.7_sgreater_n10
+    - d0.7_sgreater_n20
+    - d1.2_sgreater_n5
+    - d1.2_sgreater_n10
+    - d1.2_sgreater_n20
+    - d2.0_sgreater_n5
+    - d2.0_sgreater_n10
+    - d2.0_sgreater_n20
+
+3. By Swarm Size (n_s):
+--------------------------------------------------
+  n_s = 5: 9 experiments
+    - d0.7_sless_n5
+    - d0.7_sequal_n5
+    - d0.7_sgreater_n5
+    - d1.2_sless_n5
+    - d1.2_sequal_n5
+    - d1.2_sgreater_n5
+    - d2.0_sless_n5
+    - d2.0_sequal_n5
+    - d2.0_sgreater_n5
+
+  n_s = 10: 9 experiments
+    - d0.7_sless_n10
+    - d0.7_sequal_n10
+    - d0.7_sgreater_n10
+    - d1.2_sless_n10
+    - d1.2_sequal_n10
+    - d1.2_sgreater_n10
+    - d2.0_sless_n10
+    - d2.0_sequal_n10
+    - d2.0_sgreater_n10
+
+  n_s = 20: 9 experiments
+    - d0.7_sless_n20
+    - d0.7_sequal_n20
+    - d0.7_sgreater_n20
+    - d1.2_sless_n20
+    - d1.2_sequal_n20
+    - d1.2_sgreater_n20
+    - d2.0_sless_n20
+    - d2.0_sequal_n20
+    - d2.0_sgreater_n20
+
+====================================================================================================

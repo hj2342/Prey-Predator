@@ -1,0 +1,48 @@
+{
+  "n_predators": 10,
+  "n_prey": 10,
+  "3d": false,
+  "boundless": true,
+  "num_trials": 3,
+  "duration_sec": 200,
+  "analysis_window_sec": 150,
+  "gui": false,
+  "simulation": {
+    "default_simulation_freq_hz": 240,
+    "default_control_freq_hz": 30
+  },
+  "flocking_parameters": {
+    "desired_distance": 2.0,
+    "sensing_range_own_swarm": 2.8800000000000003,
+    "sensing_range_other_swarm": 2.8800000000000003,
+    "repulsion_strength": 1.5,
+    "alpha": 2.0,
+    "epsilon": 12.0,
+    "adaptive_sigma_strength": 1.5
+  },
+  "behavior_analysis": {
+    "follow_distance_threshold": 4.0,
+    "engulf_distance_threshold": 2.0,
+    "separation_distance_threshold": 8.0,
+    "min_behavior_duration": 10
+  },
+  "initialization": {
+    "min_distance_3d": 4.0,
+    "min_distance_formula_multiplier": 0.15,
+    "min_distance_formula_base": 1.2,
+    "min_distance_formula_offset": 1.5,
+    "boundless_settings": {
+      "init_center_offset_range": [
+        -1.0,
+        1.0
+      ],
+      "spacing": 2.0
+    },
+    "bounded_settings": {
+      "init_center_x": 3.0,
+      "init_center_y": 2.5,
+      "init_center_z": 1.0,
+      "spacing": 0.8
+    }
+  }
+}

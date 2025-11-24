@@ -1,0 +1,36 @@
+{
+  "parameter_set_name": "ph1_d1.2_a2.0_k1.5",
+  "description": "Phase1: d_des=1.2m, alpha=2.0, kappa=1.5",
+  "num_trials": 3,
+  "duration_sec": 300,
+  "analysis_window_sec": 150,
+  "swarm_size": 10,
+  "control_freq_hz": 48,
+  "flocking_parameters": {
+    "sensing_range": 3.0,
+    "sensor_range": 3.0,
+    "Dp": 4.0,
+    "Dp_preys": 3.0,
+    "sigma": 0.8485281374238569,
+    "sigma_no_sensor": 1.0182337649086282,
+    "sigma_prey": 1.0,
+    "kappa": 1.5,
+    "epsilon": 12.0,
+    "alpha": 2.0,
+    "alpha_preys": 3.0,
+    "beta": 2.0,
+    "k1": 0.5,
+    "k2": 0.1,
+    "umax_const": 0.3,
+    "wmax": 9.8696,
+    "Dr": 1.0,
+    "k_rep": 2.0,
+    "L0": 0.5
+  },
+  "behavior_thresholds": {
+    "follow_distance_threshold": 2.0,
+    "engulf_distance_threshold": 1.0,
+    "separation_distance_threshold": 4.0,
+    "min_behavior_duration": 5
+  }
+}

@@ -1,0 +1,223 @@
+{
+    "experiment_name": "predator_prey_flocking_parameters",
+    "base_config": {
+      "num_trials": 3,
+      "boundless": true,
+      "num_predators": 10,
+      "perc_no_sensor": 0,
+      "3d": false,
+      "plot": false,
+      "gui": true,
+      "real_time_sync": false,
+      "self_log": true,
+      "duration_sec": 300,
+      "analysis_window_sec": 150,
+      "simulation": {
+        "default_simulation_freq_hz": 240,
+        "default_control_freq_hz": 48,
+        "default_output_folder": "results"
+      },
+      "flocking_parameters": {
+        "sensing_range": 3.0,
+        "sensor_range": 3.0,
+        "Dp": 4.0,
+        "Dp_preys": 3.0,
+        "sigma": 1.7,
+        "sigma_no_sensor": 2.0,
+        "sigma_prey": 1.0,
+        "kappa": 1.5,
+        "epsilon": 12.0,
+        "alpha": 4.0,
+        "alpha_preys": 3.0,
+        "beta": 2.0,
+        "k1": 0.5,
+        "k2": 0.1,
+        "umax_const": 0.30,
+        "wmax": 9.8696,
+        "Dr": 1.0,
+        "k_rep": 2.0,
+        "L0": 0.5
+      },
+      "behavior_analysis": {
+        "follow_distance_threshold": 2.0,
+        "engulf_distance_threshold": 1.0,
+        "separation_distance_threshold": 4.0,
+        "min_behavior_duration": 5
+      },
+      "initialization": {
+        "boundless_settings": {
+          "init_center_offset_range": [-1, 1],
+          "spacing": 0.95
+        },
+        "bounded_settings": {
+          "init_center_x": 1,
+          "init_center_y": 1,
+          "init_center_z": 2,
+          "spacing": 0.2
+        },
+        "min_distance_3d": 3.0,
+        "min_distance_formula_multiplier": 1.7,
+        "min_distance_formula_base": 0.3,
+        "min_distance_formula_offset": 2.0
+      }
+    },
+    "parameter_sets": [
+      {
+        "name": "baseline",
+        "description": "Baseline configuration with standard parameters",
+        "overrides": {}
+      },
+      {
+        "name": "high_sensing_range",
+        "description": "Increased sensing range for both predators and preys",
+        "overrides": {
+          "flocking_parameters": {
+            "sensing_range": 4.5,
+            "sensor_range": 4.5
+          }
+        }
+      },
+      {
+        "name": "low_sensing_range",
+        "description": "Decreased sensing range for both predators and preys",
+        "overrides": {
+          "flocking_parameters": {
+            "sensing_range": 2.0,
+            "sensor_range": 2.0
+          }
+        }
+      },
+      {
+        "name": "high_alpha",
+        "description": "Increased attraction force (alpha) for predators",
+        "overrides": {
+          "flocking_parameters": {
+            "alpha": 6.0
+          }
+        }
+      },
+      {
+        "name": "low_alpha",
+        "description": "Decreased attraction force (alpha) for predators",
+        "overrides": {
+          "flocking_parameters": {
+            "alpha": 2.0
+          }
+        }
+      },
+      {
+        "name": "high_epsilon",
+        "description": "Increased repulsion force (epsilon)",
+        "overrides": {
+          "flocking_parameters": {
+            "epsilon": 18.0
+          }
+        }
+      },
+      {
+        "name": "low_epsilon",
+        "description": "Decreased repulsion force (epsilon)",
+        "overrides": {
+          "flocking_parameters": {
+            "epsilon": 8.0
+          }
+        }
+      },
+      {
+        "name": "high_sigma",
+        "description": "Increased sigma (interaction distance modulation)",
+        "overrides": {
+          "flocking_parameters": {
+            "sigma": 2.5,
+            "sigma_no_sensor": 2.8
+          }
+        }
+      },
+      {
+        "name": "low_sigma",
+        "description": "Decreased sigma (interaction distance modulation)",
+        "overrides": {
+          "flocking_parameters": {
+            "sigma": 1.0,
+            "sigma_no_sensor": 1.2
+          }
+        }
+      },
+      {
+        "name": "high_kappa",
+        "description": "Increased prey repulsion from predators (kappa)",
+        "overrides": {
+          "flocking_parameters": {
+            "kappa": 2.5
+          }
+        }
+      },
+      {
+        "name": "low_kappa",
+        "description": "Decreased prey repulsion from predators (kappa)",
+        "overrides": {
+          "flocking_parameters": {
+            "kappa": 0.8
+          }
+        }
+      },
+      {
+        "name": "high_speed",
+        "description": "Increased maximum speed for agents",
+        "overrides": {
+          "flocking_parameters": {
+            "umax_const": 0.45
+          }
+        }
+      },
+      {
+        "name": "low_speed",
+        "description": "Decreased maximum speed for agents",
+        "overrides": {
+          "flocking_parameters": {
+            "umax_const": 0.20
+          }
+        }
+      },
+      {
+        "name": "large_swarm",
+        "description": "Larger swarm size (15 agents each)",
+        "overrides": {
+          "num_predators": 15
+        }
+      },
+      {
+        "name": "small_swarm",
+        "description": "Smaller swarm size (5 agents each)",
+        "overrides": {
+          "num_predators": 5
+        }
+      },
+      {
+        "name": "high_control_freq",
+        "description": "Higher control frequency (96 Hz)",
+        "overrides": {
+          "simulation": {
+            "default_control_freq_hz": 96,
+            "default_simulation_freq_hz": 480
+          }
+        }
+      },
+      {
+        "name": "3d_environment",
+        "description": "3D environment instead of 2D",
+        "overrides": {
+          "3d": true,
+          "num_predators": 8
+        }
+      },
+      {
+        "name": "bounded_environment",
+        "description": "Bounded environment with walls",
+        "overrides": {
+          "boundless": false,
+          "num_predators": 5
+        }
+      }
+    ]
+  }

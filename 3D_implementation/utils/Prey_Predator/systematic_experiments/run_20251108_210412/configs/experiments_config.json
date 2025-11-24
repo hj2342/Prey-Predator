@@ -1,0 +1,855 @@
+{
+  "base_config": {
+    "n_predators": 10,
+    "n_prey": 10,
+    "3d": false,
+    "boundless": true,
+    "num_trials": 3,
+    "duration_sec": 200,
+    "analysis_window_sec": 150,
+    "gui": false,
+    "simulation": {
+      "default_simulation_freq_hz": 240,
+      "default_control_freq_hz": 30
+    },
+    "flocking_parameters": {
+      "desired_distance": 1.2,
+      "sensing_range_own_swarm": 3.0,
+      "sensing_range_other_swarm": 3.0,
+      "repulsion_strength": 1.5,
+      "alpha": 2.0,
+      "epsilon": 12.0,
+      "adaptive_sigma_strength": 1.5
+    },
+    "behavior_analysis": {
+      "follow_distance_threshold": 4.0,
+      "engulf_distance_threshold": 2.0,
+      "separation_distance_threshold": 8.0,
+      "min_behavior_duration": 10
+    },
+    "initialization": {
+      "min_distance_3d": 4.0,
+      "min_distance_formula_multiplier": 0.15,
+      "min_distance_formula_base": 1.2,
+      "min_distance_formula_offset": 1.5,
+      "boundless_settings": {
+        "init_center_offset_range": [
+          -1.0,
+          1.0
+        ],
+        "spacing": 1.2
+      },
+      "bounded_settings": {
+        "init_center_x": 3.0,
+        "init_center_y": 2.5,
+        "init_center_z": 1.0,
+        "spacing": 0.8
+      }
+    }
+  },
+  "parameter_sets": [
+    {
+      "name": "d0.7_sless_n5",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=less (1.01m = less 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.008,
+          "sensing_range_other_swarm": 1.008
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.008,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 5,
+        "experiment_number": 1
+      }
+    },
+    {
+      "name": "d0.7_sless_n10",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=less (1.01m = less 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.008,
+          "sensing_range_other_swarm": 1.008
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.008,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 10,
+        "experiment_number": 2
+      }
+    },
+    {
+      "name": "d0.7_sless_n20",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=less (1.01m = less 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.008,
+          "sensing_range_other_swarm": 1.008
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.008,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 20,
+        "experiment_number": 3
+      }
+    },
+    {
+      "name": "d0.7_sequal_n5",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=equal (1.26m = equal 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.26,
+          "sensing_range_other_swarm": 1.26
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.26,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 5,
+        "experiment_number": 4
+      }
+    },
+    {
+      "name": "d0.7_sequal_n10",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=equal (1.26m = equal 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.26,
+          "sensing_range_other_swarm": 1.26
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.26,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 10,
+        "experiment_number": 5
+      }
+    },
+    {
+      "name": "d0.7_sequal_n20",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=equal (1.26m = equal 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.26,
+          "sensing_range_other_swarm": 1.26
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.26,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 20,
+        "experiment_number": 6
+      }
+    },
+    {
+      "name": "d0.7_sgreater_n5",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=greater (1.51m = greater 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.512,
+          "sensing_range_other_swarm": 1.512
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.512,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 5,
+        "experiment_number": 7
+      }
+    },
+    {
+      "name": "d0.7_sgreater_n10",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=greater (1.51m = greater 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.512,
+          "sensing_range_other_swarm": 1.512
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.512,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 10,
+        "experiment_number": 8
+      }
+    },
+    {
+      "name": "d0.7_sgreater_n20",
+      "description": "d_des=0.7, \u03c3=0.495, sensing=greater (1.51m = greater 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 0.7,
+          "sensing_range_own_swarm": 1.512,
+          "sensing_range_other_swarm": 1.512
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 0.7
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 0.7,
+        "sigma": 0.495,
+        "sensing_range": 1.512,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 20,
+        "experiment_number": 9
+      }
+    },
+    {
+      "name": "d1.2_sless_n5",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=less (1.73m = less 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 1.7280000000000002,
+          "sensing_range_other_swarm": 1.7280000000000002
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 1.728,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 5,
+        "experiment_number": 10
+      }
+    },
+    {
+      "name": "d1.2_sless_n10",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=less (1.73m = less 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 1.7280000000000002,
+          "sensing_range_other_swarm": 1.7280000000000002
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 1.728,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 10,
+        "experiment_number": 11
+      }
+    },
+    {
+      "name": "d1.2_sless_n20",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=less (1.73m = less 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 1.7280000000000002,
+          "sensing_range_other_swarm": 1.7280000000000002
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 1.728,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 20,
+        "experiment_number": 12
+      }
+    },
+    {
+      "name": "d1.2_sequal_n5",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=equal (2.16m = equal 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 2.16,
+          "sensing_range_other_swarm": 2.16
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 2.16,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 5,
+        "experiment_number": 13
+      }
+    },
+    {
+      "name": "d1.2_sequal_n10",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=equal (2.16m = equal 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 2.16,
+          "sensing_range_other_swarm": 2.16
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 2.16,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 10,
+        "experiment_number": 14
+      }
+    },
+    {
+      "name": "d1.2_sequal_n20",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=equal (2.16m = equal 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 2.16,
+          "sensing_range_other_swarm": 2.16
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 2.16,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 20,
+        "experiment_number": 15
+      }
+    },
+    {
+      "name": "d1.2_sgreater_n5",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=greater (2.59m = greater 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 2.592,
+          "sensing_range_other_swarm": 2.592
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 2.592,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 5,
+        "experiment_number": 16
+      }
+    },
+    {
+      "name": "d1.2_sgreater_n10",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=greater (2.59m = greater 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 2.592,
+          "sensing_range_other_swarm": 2.592
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 2.592,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 10,
+        "experiment_number": 17
+      }
+    },
+    {
+      "name": "d1.2_sgreater_n20",
+      "description": "d_des=1.2, \u03c3=0.849, sensing=greater (2.59m = greater 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 1.2,
+          "sensing_range_own_swarm": 2.592,
+          "sensing_range_other_swarm": 2.592
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 1.2
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 1.2,
+        "sigma": 0.8485,
+        "sensing_range": 2.592,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 20,
+        "experiment_number": 18
+      }
+    },
+    {
+      "name": "d2.0_sless_n5",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=less (2.88m = less 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 2.8800000000000003,
+          "sensing_range_other_swarm": 2.8800000000000003
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 2.88,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 5,
+        "experiment_number": 19
+      }
+    },
+    {
+      "name": "d2.0_sless_n10",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=less (2.88m = less 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 2.8800000000000003,
+          "sensing_range_other_swarm": 2.8800000000000003
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 2.88,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 10,
+        "experiment_number": 20
+      }
+    },
+    {
+      "name": "d2.0_sless_n20",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=less (2.88m = less 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 2.8800000000000003,
+          "sensing_range_other_swarm": 2.8800000000000003
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 2.88,
+        "sensing_type": "less",
+        "sensing_multiplier": 0.8,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.44,
+        "swarm_size": 20,
+        "experiment_number": 21
+      }
+    },
+    {
+      "name": "d2.0_sequal_n5",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=equal (3.60m = equal 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 3.6,
+          "sensing_range_other_swarm": 3.6
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 3.6,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 5,
+        "experiment_number": 22
+      }
+    },
+    {
+      "name": "d2.0_sequal_n10",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=equal (3.60m = equal 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 3.6,
+          "sensing_range_other_swarm": 3.6
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 3.6,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 10,
+        "experiment_number": 23
+      }
+    },
+    {
+      "name": "d2.0_sequal_n20",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=equal (3.60m = equal 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 3.6,
+          "sensing_range_other_swarm": 3.6
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 3.6,
+        "sensing_type": "equal",
+        "sensing_multiplier": 1.0,
+        "target_ratio": 1.8,
+        "actual_ratio": 1.8,
+        "swarm_size": 20,
+        "experiment_number": 24
+      }
+    },
+    {
+      "name": "d2.0_sgreater_n5",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=greater (4.32m = greater 1.8\u00d7d_des), n=5",
+      "overrides": {
+        "n_predators": 5,
+        "n_prey": 5,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 4.32,
+          "sensing_range_other_swarm": 4.32
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 4.32,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 5,
+        "experiment_number": 25
+      }
+    },
+    {
+      "name": "d2.0_sgreater_n10",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=greater (4.32m = greater 1.8\u00d7d_des), n=10",
+      "overrides": {
+        "n_predators": 10,
+        "n_prey": 10,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 4.32,
+          "sensing_range_other_swarm": 4.32
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 4.32,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 10,
+        "experiment_number": 26
+      }
+    },
+    {
+      "name": "d2.0_sgreater_n20",
+      "description": "d_des=2.0, \u03c3=1.414, sensing=greater (4.32m = greater 1.8\u00d7d_des), n=20",
+      "overrides": {
+        "n_predators": 20,
+        "n_prey": 20,
+        "flocking_parameters": {
+          "desired_distance": 2.0,
+          "sensing_range_own_swarm": 4.32,
+          "sensing_range_other_swarm": 4.32
+        },
+        "initialization": {
+          "boundless_settings": {
+            "spacing": 2.0
+          }
+        }
+      },
+      "_metadata": {
+        "d_des": 2.0,
+        "sigma": 1.4142,
+        "sensing_range": 4.32,
+        "sensing_type": "greater",
+        "sensing_multiplier": 1.2,
+        "target_ratio": 1.8,
+        "actual_ratio": 2.16,
+        "swarm_size": 20,
+        "experiment_number": 27
+      }
+    }
+  ],
+  "_experiment_info": {
+    "total_experiments": 27,
+    "description": "Systematic study of d_des, sensing_range, and swarm_size",
+    "d_des_values": [
+      0.7,
+      1.2,
+      2.0
+    ],
+    "sensing_multipliers": {
+      "less": 0.8,
+      "equal": 1.0,
+      "greater": 1.2
+    },
+    "swarm_sizes": [
+      5,
+      10,
+      20
+    ],
+    "design": "3\u00d73\u00d73 full factorial design"
+  }
+}

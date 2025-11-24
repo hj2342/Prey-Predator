@@ -1,0 +1,64 @@
+{
+  "num_trials": 3,
+  "boundless": true,
+  "ns": 10,
+  "perc_no_sensor": 0,
+  "3d": false,
+  "plot": false,
+  "gui": false,
+  "real_time_sync": false,
+  "self_log": true,
+  "duration_sec": 300,
+  "analysis_window_sec": 150,
+  "simulation": {
+    "default_simulation_freq_hz": 240,
+    "default_control_freq_hz": 48,
+    "default_output_folder": "results"
+  },
+  "flocking_parameters": {
+    "sensing_range": 3.0,
+    "sensor_range": 3.0,
+    "Dp": 4.0,
+    "Dp_preys": 3.0,
+    "sigma": 1.414213562373095,
+    "sigma_no_sensor": 1.6970562748477138,
+    "sigma_prey": 1.0,
+    "kappa": 0.5,
+    "epsilon": 12.0,
+    "alpha": 2.0,
+    "alpha_preys": 3.0,
+    "beta": 2.0,
+    "k1": 0.5,
+    "k2": 0.1,
+    "umax_const": 0.3,
+    "wmax": 9.8696,
+    "Dr": 1.0,
+    "k_rep": 2.0,
+    "L0": 0.5
+  },
+  "behavior_analysis": {
+    "follow_distance_threshold": 2.0,
+    "engulf_distance_threshold": 1.0,
+    "separation_distance_threshold": 4.0,
+    "min_behavior_duration": 5
+  },
+  "initialization": {
+    "boundless_settings": {
+      "init_center_offset_range": [
+        -1,
+        1
+      ],
+      "spacing": 0.95
+    },
+    "bounded_settings": {
+      "init_center_x": 1,
+      "init_center_y": 1,
+      "init_center_z": 2,
+      "spacing": 0.2
+    },
+    "min_distance_3d": 3.0,
+    "min_distance_formula_multiplier": 1.7,
+    "min_distance_formula_base": 0.3,
+    "min_distance_formula_offset": 2.0
+  }
+}

@@ -1,0 +1,334 @@
+====================================================================================================
+EXPERIMENT RESULTS INDEX
+====================================================================================================
+
+Total Successful Experiments: 27
+
+RESULTS LOCATION:
+----------------------------------------------------------------------------------------------------
+
+d0.7_sless_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sless_n5_08-11-2025_21-05
+  Files:
+    - distance_data_d0.7_sless_n5.txt
+    - metadata_d0.7_sless_n5.json
+    - config_d0.7_sless_n5.json
+    - behavior_statistics_d0.7_sless_n5.json
+    - trial_summary_d0.7_sless_n5.csv
+    - behavior_analysis_d0.7_sless_n5.png
+    - distance_data_d0.7_sless_n5.csv
+    - detailed_results_d0.7_sless_n5.json
+
+d0.7_sless_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sless_n10_08-11-2025_21-07
+  Files:
+    - distance_data_d0.7_sless_n10.txt
+    - trial_summary_d0.7_sless_n10.csv
+    - distance_data_d0.7_sless_n10.csv
+    - config_d0.7_sless_n10.json
+    - behavior_statistics_d0.7_sless_n10.json
+    - detailed_results_d0.7_sless_n10.json
+    - behavior_analysis_d0.7_sless_n10.png
+    - metadata_d0.7_sless_n10.json
+
+d0.7_sless_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sless_n20_08-11-2025_21-11
+  Files:
+    - behavior_analysis_d0.7_sless_n20.png
+    - distance_data_d0.7_sless_n20.csv
+    - behavior_statistics_d0.7_sless_n20.json
+    - config_d0.7_sless_n20.json
+    - metadata_d0.7_sless_n20.json
+    - detailed_results_d0.7_sless_n20.json
+    - trial_summary_d0.7_sless_n20.csv
+    - distance_data_d0.7_sless_n20.txt
+
+d0.7_sequal_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sequal_n5_08-11-2025_21-13
+  Files:
+    - behavior_analysis_d0.7_sequal_n5.png
+    - distance_data_d0.7_sequal_n5.csv
+    - config_d0.7_sequal_n5.json
+    - behavior_statistics_d0.7_sequal_n5.json
+    - detailed_results_d0.7_sequal_n5.json
+    - metadata_d0.7_sequal_n5.json
+    - trial_summary_d0.7_sequal_n5.csv
+    - distance_data_d0.7_sequal_n5.txt
+
+d0.7_sequal_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sequal_n10_08-11-2025_21-15
+  Files:
+    - trial_summary_d0.7_sequal_n10.csv
+    - behavior_statistics_d0.7_sequal_n10.json
+    - distance_data_d0.7_sequal_n10.csv
+    - behavior_analysis_d0.7_sequal_n10.png
+    - config_d0.7_sequal_n10.json
+    - distance_data_d0.7_sequal_n10.txt
+    - detailed_results_d0.7_sequal_n10.json
+    - metadata_d0.7_sequal_n10.json
+
+d0.7_sequal_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sequal_n20_08-11-2025_21-19
+  Files:
+    - behavior_statistics_d0.7_sequal_n20.json
+    - distance_data_d0.7_sequal_n20.txt
+    - behavior_analysis_d0.7_sequal_n20.png
+    - detailed_results_d0.7_sequal_n20.json
+    - distance_data_d0.7_sequal_n20.csv
+    - metadata_d0.7_sequal_n20.json
+    - trial_summary_d0.7_sequal_n20.csv
+    - config_d0.7_sequal_n20.json
+
+d0.7_sgreater_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sgreater_n5_08-11-2025_21-20
+  Files:
+    - distance_data_d0.7_sgreater_n5.txt
+    - config_d0.7_sgreater_n5.json
+    - trial_summary_d0.7_sgreater_n5.csv
+    - detailed_results_d0.7_sgreater_n5.json
+    - distance_data_d0.7_sgreater_n5.csv
+    - behavior_statistics_d0.7_sgreater_n5.json
+    - behavior_analysis_d0.7_sgreater_n5.png
+    - metadata_d0.7_sgreater_n5.json
+
+d0.7_sgreater_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sgreater_n10_08-11-2025_21-23
+  Files:
+    - behavior_analysis_d0.7_sgreater_n10.png
+    - trial_summary_d0.7_sgreater_n10.csv
+    - behavior_statistics_d0.7_sgreater_n10.json
+    - distance_data_d0.7_sgreater_n10.csv
+    - detailed_results_d0.7_sgreater_n10.json
+    - config_d0.7_sgreater_n10.json
+    - metadata_d0.7_sgreater_n10.json
+    - distance_data_d0.7_sgreater_n10.txt
+
+d0.7_sgreater_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d0.7_sgreater_n20_08-11-2025_21-27
+  Files:
+    - distance_data_d0.7_sgreater_n20.txt
+    - behavior_statistics_d0.7_sgreater_n20.json
+    - detailed_results_d0.7_sgreater_n20.json
+    - metadata_d0.7_sgreater_n20.json
+    - distance_data_d0.7_sgreater_n20.csv
+    - trial_summary_d0.7_sgreater_n20.csv
+    - config_d0.7_sgreater_n20.json
+    - behavior_analysis_d0.7_sgreater_n20.png
+
+d1.2_sless_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sless_n5_08-11-2025_21-28
+  Files:
+    - behavior_statistics_d1.2_sless_n5.json
+    - behavior_analysis_d1.2_sless_n5.png
+    - trial_summary_d1.2_sless_n5.csv
+    - distance_data_d1.2_sless_n5.csv
+    - detailed_results_d1.2_sless_n5.json
+    - metadata_d1.2_sless_n5.json
+    - config_d1.2_sless_n5.json
+    - distance_data_d1.2_sless_n5.txt
+
+d1.2_sless_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sless_n10_08-11-2025_21-30
+  Files:
+    - distance_data_d1.2_sless_n10.csv
+    - behavior_analysis_d1.2_sless_n10.png
+    - distance_data_d1.2_sless_n10.txt
+    - trial_summary_d1.2_sless_n10.csv
+    - behavior_statistics_d1.2_sless_n10.json
+    - config_d1.2_sless_n10.json
+    - metadata_d1.2_sless_n10.json
+    - detailed_results_d1.2_sless_n10.json
+
+d1.2_sless_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sless_n20_08-11-2025_21-35
+  Files:
+    - trial_summary_d1.2_sless_n20.csv
+    - distance_data_d1.2_sless_n20.txt
+    - behavior_analysis_d1.2_sless_n20.png
+    - config_d1.2_sless_n20.json
+    - behavior_statistics_d1.2_sless_n20.json
+    - detailed_results_d1.2_sless_n20.json
+    - metadata_d1.2_sless_n20.json
+    - distance_data_d1.2_sless_n20.csv
+
+d1.2_sequal_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sequal_n5_08-11-2025_21-36
+  Files:
+    - trial_summary_d1.2_sequal_n5.csv
+    - distance_data_d1.2_sequal_n5.txt
+    - behavior_statistics_d1.2_sequal_n5.json
+    - config_d1.2_sequal_n5.json
+    - metadata_d1.2_sequal_n5.json
+    - detailed_results_d1.2_sequal_n5.json
+    - behavior_analysis_d1.2_sequal_n5.png
+    - distance_data_d1.2_sequal_n5.csv
+
+d1.2_sequal_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sequal_n10_08-11-2025_21-38
+  Files:
+    - detailed_results_d1.2_sequal_n10.json
+    - trial_summary_d1.2_sequal_n10.csv
+    - metadata_d1.2_sequal_n10.json
+    - distance_data_d1.2_sequal_n10.csv
+    - config_d1.2_sequal_n10.json
+    - behavior_statistics_d1.2_sequal_n10.json
+    - behavior_analysis_d1.2_sequal_n10.png
+    - distance_data_d1.2_sequal_n10.txt
+
+d1.2_sequal_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sequal_n20_08-11-2025_21-43
+  Files:
+    - distance_data_d1.2_sequal_n20.txt
+    - config_d1.2_sequal_n20.json
+    - detailed_results_d1.2_sequal_n20.json
+    - behavior_analysis_d1.2_sequal_n20.png
+    - metadata_d1.2_sequal_n20.json
+    - distance_data_d1.2_sequal_n20.csv
+    - behavior_statistics_d1.2_sequal_n20.json
+    - trial_summary_d1.2_sequal_n20.csv
+
+d1.2_sgreater_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sgreater_n5_08-11-2025_21-44
+  Files:
+    - behavior_statistics_d1.2_sgreater_n5.json
+    - behavior_analysis_d1.2_sgreater_n5.png
+    - distance_data_d1.2_sgreater_n5.csv
+    - metadata_d1.2_sgreater_n5.json
+    - config_d1.2_sgreater_n5.json
+    - trial_summary_d1.2_sgreater_n5.csv
+    - distance_data_d1.2_sgreater_n5.txt
+    - detailed_results_d1.2_sgreater_n5.json
+
+d1.2_sgreater_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sgreater_n10_08-11-2025_21-46
+  Files:
+    - behavior_statistics_d1.2_sgreater_n10.json
+    - distance_data_d1.2_sgreater_n10.txt
+    - detailed_results_d1.2_sgreater_n10.json
+    - config_d1.2_sgreater_n10.json
+    - behavior_analysis_d1.2_sgreater_n10.png
+    - trial_summary_d1.2_sgreater_n10.csv
+    - metadata_d1.2_sgreater_n10.json
+    - distance_data_d1.2_sgreater_n10.csv
+
+d1.2_sgreater_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d1.2_sgreater_n20_08-11-2025_21-51
+  Files:
+    - behavior_statistics_d1.2_sgreater_n20.json
+    - distance_data_d1.2_sgreater_n20.csv
+    - detailed_results_d1.2_sgreater_n20.json
+    - trial_summary_d1.2_sgreater_n20.csv
+    - behavior_analysis_d1.2_sgreater_n20.png
+    - distance_data_d1.2_sgreater_n20.txt
+    - metadata_d1.2_sgreater_n20.json
+    - config_d1.2_sgreater_n20.json
+
+d2.0_sless_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sless_n5_08-11-2025_21-52
+  Files:
+    - detailed_results_d2.0_sless_n5.json
+    - distance_data_d2.0_sless_n5.txt
+    - behavior_statistics_d2.0_sless_n5.json
+    - config_d2.0_sless_n5.json
+    - metadata_d2.0_sless_n5.json
+    - distance_data_d2.0_sless_n5.csv
+    - behavior_analysis_d2.0_sless_n5.png
+    - trial_summary_d2.0_sless_n5.csv
+
+d2.0_sless_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sless_n10_08-11-2025_21-54
+  Files:
+    - behavior_analysis_d2.0_sless_n10.png
+    - behavior_statistics_d2.0_sless_n10.json
+    - config_d2.0_sless_n10.json
+    - metadata_d2.0_sless_n10.json
+    - detailed_results_d2.0_sless_n10.json
+    - distance_data_d2.0_sless_n10.csv
+    - trial_summary_d2.0_sless_n10.csv
+    - distance_data_d2.0_sless_n10.txt
+
+d2.0_sless_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sless_n20_08-11-2025_21-59
+  Files:
+    - config_d2.0_sless_n20.json
+    - behavior_statistics_d2.0_sless_n20.json
+    - distance_data_d2.0_sless_n20.txt
+    - detailed_results_d2.0_sless_n20.json
+    - metadata_d2.0_sless_n20.json
+    - trial_summary_d2.0_sless_n20.csv
+    - distance_data_d2.0_sless_n20.csv
+    - behavior_analysis_d2.0_sless_n20.png
+
+d2.0_sequal_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sequal_n5_08-11-2025_22-00
+  Files:
+    - distance_data_d2.0_sequal_n5.txt
+    - behavior_statistics_d2.0_sequal_n5.json
+    - config_d2.0_sequal_n5.json
+    - trial_summary_d2.0_sequal_n5.csv
+    - metadata_d2.0_sequal_n5.json
+    - detailed_results_d2.0_sequal_n5.json
+    - distance_data_d2.0_sequal_n5.csv
+    - behavior_analysis_d2.0_sequal_n5.png
+
+d2.0_sequal_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sequal_n10_08-11-2025_22-02
+  Files:
+    - behavior_analysis_d2.0_sequal_n10.png
+    - behavior_statistics_d2.0_sequal_n10.json
+    - distance_data_d2.0_sequal_n10.txt
+    - metadata_d2.0_sequal_n10.json
+    - detailed_results_d2.0_sequal_n10.json
+    - trial_summary_d2.0_sequal_n10.csv
+    - config_d2.0_sequal_n10.json
+    - distance_data_d2.0_sequal_n10.csv
+
+d2.0_sequal_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sequal_n20_08-11-2025_22-08
+  Files:
+    - distance_data_d2.0_sequal_n20.csv
+    - trial_summary_d2.0_sequal_n20.csv
+    - behavior_statistics_d2.0_sequal_n20.json
+    - config_d2.0_sequal_n20.json
+    - distance_data_d2.0_sequal_n20.txt
+    - metadata_d2.0_sequal_n20.json
+    - behavior_analysis_d2.0_sequal_n20.png
+    - detailed_results_d2.0_sequal_n20.json
+
+d2.0_sgreater_n5:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sgreater_n5_08-11-2025_22-09
+  Files:
+    - config_d2.0_sgreater_n5.json
+    - trial_summary_d2.0_sgreater_n5.csv
+    - distance_data_d2.0_sgreater_n5.txt
+    - detailed_results_d2.0_sgreater_n5.json
+    - behavior_analysis_d2.0_sgreater_n5.png
+    - behavior_statistics_d2.0_sgreater_n5.json
+    - metadata_d2.0_sgreater_n5.json
+    - distance_data_d2.0_sgreater_n5.csv
+
+d2.0_sgreater_n10:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sgreater_n10_08-11-2025_22-12
+  Files:
+    - behavior_statistics_d2.0_sgreater_n10.json
+    - behavior_analysis_d2.0_sgreater_n10.png
+    - detailed_results_d2.0_sgreater_n10.json
+    - distance_data_d2.0_sgreater_n10.csv
+    - trial_summary_d2.0_sgreater_n10.csv
+    - metadata_d2.0_sgreater_n10.json
+    - config_d2.0_sgreater_n10.json
+    - distance_data_d2.0_sgreater_n10.txt
+
+d2.0_sgreater_n20:
+  Location: systematic_experiments/run_20251108_210412/results/results_d2.0_sgreater_n20_08-11-2025_22-18
+  Files:
+    - distance_data_d2.0_sgreater_n20.txt
+    - behavior_statistics_d2.0_sgreater_n20.json
+    - detailed_results_d2.0_sgreater_n20.json
+    - config_d2.0_sgreater_n20.json
+    - trial_summary_d2.0_sgreater_n20.csv
+    - distance_data_d2.0_sgreater_n20.csv
+    - metadata_d2.0_sgreater_n20.json
+    - behavior_analysis_d2.0_sgreater_n20.png
+
+====================================================================================================

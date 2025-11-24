@@ -1,0 +1,23 @@
+{
+  "following": {
+    "mean": 4.0,
+    "std": 0.816496580927726,
+    "min": 3,
+    "max": 5,
+    "total": 12
+  },
+  "engulfing": {
+    "mean": 4.333333333333333,
+    "std": 1.247219128924647,
+    "min": 3,
+    "max": 6,
+    "total": 13
+  },
+  "separating": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0,
+    "max": 0,
+    "total": 0
+  }
+}

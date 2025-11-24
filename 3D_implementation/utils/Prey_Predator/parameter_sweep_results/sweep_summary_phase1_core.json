@@ -1,0 +1,92 @@
+[
+  {
+    "config": "ph1_d0.7_a2.0_k0.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d0.7_a2.0_k0.5_30-10-2025_23-47"
+  },
+  {
+    "config": "ph1_d0.7_a2.0_k1.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d0.7_a2.0_k1.5_30-10-2025_23-52"
+  },
+  {
+    "config": "ph1_d0.7_a2.0_k3.0",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d0.7_a2.0_k3.0_30-10-2025_23-56"
+  },
+  {
+    "config": "ph1_d0.7_a6.0_k0.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d0.7_a6.0_k0.5_30-10-2025_23-59"
+  },
+  {
+    "config": "ph1_d0.7_a6.0_k1.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d0.7_a6.0_k1.5_31-10-2025_00-02"
+  },
+  {
+    "config": "ph1_d0.7_a6.0_k3.0",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d0.7_a6.0_k3.0_31-10-2025_00-05"
+  },
+  {
+    "config": "ph1_d1.2_a2.0_k0.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d1.2_a2.0_k0.5_31-10-2025_00-07"
+  },
+  {
+    "config": "ph1_d1.2_a2.0_k1.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d1.2_a2.0_k1.5_31-10-2025_00-10"
+  },
+  {
+    "config": "ph1_d1.2_a2.0_k3.0",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d1.2_a2.0_k3.0_31-10-2025_00-13"
+  },
+  {
+    "config": "ph1_d1.2_a6.0_k0.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d1.2_a6.0_k0.5_31-10-2025_00-15"
+  },
+  {
+    "config": "ph1_d1.2_a6.0_k1.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d1.2_a6.0_k1.5_31-10-2025_00-18"
+  },
+  {
+    "config": "ph1_d1.2_a6.0_k3.0",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d1.2_a6.0_k3.0_31-10-2025_00-21"
+  },
+  {
+    "config": "ph1_d2.0_a2.0_k0.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d2.0_a2.0_k0.5_31-10-2025_00-23"
+  },
+  {
+    "config": "ph1_d2.0_a2.0_k1.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d2.0_a2.0_k1.5_31-10-2025_00-26"
+  },
+  {
+    "config": "ph1_d2.0_a2.0_k3.0",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d2.0_a2.0_k3.0_31-10-2025_00-29"
+  },
+  {
+    "config": "ph1_d2.0_a6.0_k0.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d2.0_a6.0_k0.5_31-10-2025_00-31"
+  },
+  {
+    "config": "ph1_d2.0_a6.0_k1.5",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d2.0_a6.0_k1.5_31-10-2025_00-34"
+  },
+  {
+    "config": "ph1_d2.0_a6.0_k3.0",
+    "status": "success",
+    "save_dir": "parameter_sweep_results/results_ph1_d2.0_a6.0_k3.0_31-10-2025_00-37"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "start_time": "2025-11-08T21:04:12.861818",
+  "end_time": "2025-11-08T22:18:33.275586",
+  "total_time_seconds": 4460.413768,
+  "total_experiments": 27,
+  "successful": 27,
+  "failed": 0,
+  "successful_experiments": [
+    "d0.7_sless_n5",
+    "d0.7_sless_n10",
+    "d0.7_sless_n20",
+    "d0.7_sequal_n5",
+    "d0.7_sequal_n10",
+    "d0.7_sequal_n20",
+    "d0.7_sgreater_n5",
+    "d0.7_sgreater_n10",
+    "d0.7_sgreater_n20",
+    "d1.2_sless_n5",
+    "d1.2_sless_n10",
+    "d1.2_sless_n20",
+    "d1.2_sequal_n5",
+    "d1.2_sequal_n10",
+    "d1.2_sequal_n20",
+    "d1.2_sgreater_n5",
+    "d1.2_sgreater_n10",
+    "d1.2_sgreater_n20",
+    "d2.0_sless_n5",
+    "d2.0_sless_n10",
+    "d2.0_sless_n20",
+    "d2.0_sequal_n5",
+    "d2.0_sequal_n10",
+    "d2.0_sequal_n20",
+    "d2.0_sgreater_n5",
+    "d2.0_sgreater_n10",
+    "d2.0_sgreater_n20"
+  ],
+  "failed_experiments": [],
+  "configuration": {
+    "trials_per_experiment": 3,
+    "duration_per_trial": 200
+  }
+}

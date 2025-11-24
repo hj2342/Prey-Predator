@@ -1,0 +1,6 @@
+objective,experiment,d_des,sensing_range,swarm_size,score
+balanced_interaction,d1.2_sequal_n5_08-11-2025,1.2,2.16,5,5.0
+max_pursuit,d1.2_sequal_n5_08-11-2025,1.2,2.16,5,2.5587824022367194
+max_evasion,d0.7_sgreater_n5_08-11-2025,0.7,1.512,5,4.95355348808183
+dynamic,d0.7_sgreater_n5_08-11-2025,0.7,1.512,5,5.185177582503604
+stable,d2.0_sequal_n5_08-11-2025,2.0,3.6,5,1.441170679975901
